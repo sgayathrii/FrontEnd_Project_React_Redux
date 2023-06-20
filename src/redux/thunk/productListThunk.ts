@@ -1,6 +1,8 @@
+import axios from "axios";
+
 import { productActions } from "../slices/productListSlice";
 import { AppDispatch, Category, ProductsResponse } from "../../types/types";
-import axios from "axios";
+
 
 const productUrl = "https://dummyjson.com/products?limit=0";
 
@@ -13,7 +15,6 @@ export function fetchProductData() {
       const categories: Category[] = Array.from(
         new Set(productData.map((product: any) => product.category))
       );
-      console.log(categories, "thunk");
       dispatch(productActions.getProductData(productData));
       dispatch(productActions.setCategories(categories));
     } catch (error) {

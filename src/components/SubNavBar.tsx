@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Button } from "@mui/material";
+
 import { Category, SubNavBarProps } from "../types/types";
 
 export default function SubNavBar({

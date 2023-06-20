@@ -60,3 +60,5 @@ ONLY DO THIS PART WHEN YOU HAVE COMPLETED THE REQUIREMENTS PART
 
 6. Cart
    ![](./screenshots/cart.png)
+
+7. DEPLOY LINK : int-fs-8-front-end-project-dv1dl0gdc-sgayathrii.vercel.app

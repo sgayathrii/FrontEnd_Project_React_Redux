@@ -1,6 +1,7 @@
-import { productDetailsActions } from "../slices/productDetailSlice";
 import axios from "axios";
+
 import { AppDispatch } from "../../types/types";
+import { productDetailsActions } from "../slices/productDetailSlice";
 
 export const fetchProductDetails = (productId: string) => {
   return async (dispatch: AppDispatch) => {

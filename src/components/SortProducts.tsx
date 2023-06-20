@@ -1,5 +1,6 @@
 import React from "react";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
+
 import { SortProductsProps } from "../types/types";
 
 export default function SortProducts({

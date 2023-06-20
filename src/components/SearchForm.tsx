@@ -4,6 +4,7 @@ import { IconButton, Box, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ClearIcon from "@mui/icons-material/Clear";
 import { styled } from "@mui/system";
+
 import { SearchFormProps } from "../types/types";
 
 const SearchField = styled(TextField)`

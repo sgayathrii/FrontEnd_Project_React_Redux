@@ -2,8 +2,6 @@ import React, { useEffect} from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, ProductWithQuantity, RootState } from "../types/types";
-import { fetchProductDetails } from "../redux/thunk/productDetailThunk";
-import LoadingSpinner from "../components/LoadingSpinner";
 import {
   Button,
   Card,
@@ -13,6 +11,9 @@ import {
 } from "@mui/material";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import { fetchProductDetails } from "../redux/thunk/productDetailThunk";
+import LoadingSpinner from "../components/LoadingSpinner";
 import { productActions } from "../redux/slices/productListSlice";
 
 export default function ProductDetail() {

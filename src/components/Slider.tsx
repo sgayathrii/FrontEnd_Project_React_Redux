@@ -18,11 +18,11 @@ export default function Slider() {
         autoPlay
         swipeable={true}
         dynamicHeight={false}
-        showStatus={false} // Hide the status indicators
-        showIndicators={false} // Hide the slide indicators
-        showThumbs={false} // Hide the thumbnail images
-        centerMode // Enable center mode
-        centerSlidePercentage={100} //
+        showStatus={false} 
+        showIndicators={false} 
+        showThumbs={false}
+        centerMode 
+        centerSlidePercentage={100} 
       >
         <div>
           <img src={Traditiondress} alt="Tradition Dress" />

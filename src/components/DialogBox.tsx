@@ -8,6 +8,7 @@ import {
   Typography,
   Slide,
 } from "@mui/material";
+
 import { TransitionProps } from "@mui/material/transitions";
 import { DialogBoxProps } from "../types/types";
 

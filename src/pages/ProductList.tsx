@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import Grid from "@mui/material/Grid";
+
 import {
   RootState,
   AppDispatch,
@@ -11,7 +13,6 @@ import {
   fetchProductData,
   searchProduct,
 } from "../redux/thunk/productListThunk";
-import Grid from "@mui/material/Grid";
 import ProductCard from "./ProductCard";
 import LoadingSpinner from "../components/LoadingSpinner";
 import SearchForm from "../components/SearchForm";
